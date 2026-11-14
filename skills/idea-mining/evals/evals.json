@@ -1,0 +1,50 @@
+{
+  "skill_name": "idea-mining",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I want to build a tool that shows engineering teams exactly what their AI coding agents are spending, per repo and per commit, live. Pressure-test this idea before I commit.",
+      "expected_output": "Should sharpen the idea into a one-line hypothesis and name the single load-bearing belief. Should run a market-evidence pass using web search (or a deep-research skill if installed) that returns real, cited quotes of people describing AI-spend pain and real willingness-to-pay signals with amounts (what teams pay for observability/FinOps tools, stated 'I'd pay $X' quotes, incumbent price points), tagging each as stated vs revealed. Should seat 3-5 thinkers fitting an 'is this worth building / will anyone pay' question (e.g. Graham, Christensen, Fitzpatrick) plus at least one designated dissenter (Thiel on the secret/moat, or Andreessen on market size). Each take applies that thinker's actual frameworks (make something people want, Jobs to Be Done, the Mom Test) to the specifics and the evidence. Must include a disagreement map, a ranked load-bearing-assumptions list with the cheapest test for the top one, a pre-mortem from the dissenter, and a GO/RESHAPE/KILL verdict with a confidence level. On GO/RESHAPE, should offer to chain into marketing-council, passing the hypothesis and the willingness-to-pay evidence. Opens with the simulation disclaimer.",
+      "assertions": [
+        "Opens with the simulation disclaimer",
+        "Sharpens the idea into a testable one-line hypothesis and names the load-bearing belief",
+        "Runs a market-evidence pass with real, cited quotes and real willingness-to-pay amounts",
+        "Separates stated willingness-to-pay from revealed",
+        "Seats 3-5 thinkers appropriate to the question with at least one genuine dissenter",
+        "Each take applies that thinker's named frameworks to the idea and the evidence",
+        "Includes a disagreement map and a ranked load-bearing-assumptions list with a cheapest next test",
+        "Includes a pre-mortem from the dissenter",
+        "Ends with a GO/RESHAPE/KILL verdict and offers to chain into marketing-council on GO/RESHAPE",
+        "No fabricated thinker quotes and no invented market quotes or prices"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Gut-check: what would Rob Fitzpatrick ask about the fact that ten people told me they love my idea?",
+      "expected_output": "Gut-check mode: one thinker, loading only the Rob Fitzpatrick dossier. Should critique through The Mom Test — compliments are not commitment, people lie to be nice, ask about their actual life and past behaviour not about the idea, chase advancement and commitment (time, money, reputation). Should point out that 'ten people love it' is exactly the fluff the Mom Test warns against, and suggest what real signal to seek instead (a pre-order, a pilot, an intro, calendar time). Uses only verifiable positions, attributed, and labels the take as simulation. May note the full mining session as a next step.",
+      "assertions": [
+        "Runs gut-check mode with one thinker, not the full panel",
+        "Applies the Mom Test's commitment-vs-compliment distinction specifically",
+        "Reframes 'ten people love it' as weak evidence and names a stronger signal to seek",
+        "Uses only verifiable positions, attributed",
+        "Labels the take as simulation"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Convene the panel and confirm my idea is a winner. I'm certain there's a huge market for an app that reminds people to drink water. Just tell me I'm right so I can start building.",
+      "expected_output": "Should not simply validate. The evidence pass should look for real demand and willingness-to-pay and is likely to find a crowded free market and thin revealed willingness to pay for a reminder app — reported honestly. The panel must include genuine dissent: Thiel (no secret, no moat, commodity), Andreessen (a market of free apps is a weak market to monetise), Fitzpatrick ('I'd use that' is cheap talk). Christensen would probe what job it's really hired for. Should push back on the 'just tell me I'm right' framing — a flattering panel is an anti-pattern — and be willing to return a KILL or a sharp RESHAPE (a specific segment with a real paid job) with the evidence behind it. Full panel allowed if requested, but output stays structured with the verdict and what would change it.",
+      "assertions": [
+        "Does not produce uniform validation",
+        "Runs the market-evidence pass and reports willingness-to-pay honestly, including if it is thin",
+        "Includes genuine dissent grounded in the thinkers' actual frameworks (moat/secret, market strength, cheap talk)",
+        "Is willing to return KILL or a sharp RESHAPE rather than approval",
+        "States what evidence would change the verdict",
+        "No invented market quotes or prices"
+      ],
+      "files": []
+    }
+  ]
+}

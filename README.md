@@ -9,6 +9,7 @@ A skill is a folder of instructions (a `SKILL.md`, plus whatever reference files
 | Skill | What it does |
 |---|---|
 | [**venture-mining**](skills/venture-mining/) | Finds product ideas people already pay to solve, and kills the rest before you build anything. Primary-source evidence, ten adversarial attacks, a 7 Powers moat check, and kill criteria with numbers and dates written before the first build session. |
+| [**idea-mining**](skills/idea-mining/) | Pressure-tests one raw idea before you commit to it. Goes and finds real people describing the problem and what they already pay, puts the idea in front of a simulated panel of nine thinkers (Graham, Thiel, Christensen, Fitzpatrick and others) with a dissenter who always argues it's dead, then gives a go, reshape or kill. Hands a go to the Marketing Council skill for the go-to-market. |
 
 More to come. Each skill has its own README with install steps and example prompts.
 
@@ -40,6 +41,7 @@ skills/
     SKILL.md        What Claude reads first
     README.md       What humans read first
     references/     Detail Claude opens only when it needs it
+    evals/          Test prompts for checking the skill still behaves
     assets/         Templates the skill fills in
 ```
 
